@@ -1,0 +1,6 @@
+C:\Users\Baran\Desktop\KeepAlive\bin\Debug\KeepAlive.exe
+C:\Users\Baran\Desktop\KeepAlive\bin\Debug\KeepAlive.pdb
+C:\Users\Baran\Desktop\KeepAlive\obj\Debug\KeepAlive.csprojResolveAssemblyReference.cache
+C:\Users\Baran\Desktop\KeepAlive\obj\Debug\KeepAlive.csproj.CoreCompileInputs.cache
+C:\Users\Baran\Desktop\KeepAlive\obj\Debug\KeepAlive.exe
+C:\Users\Baran\Desktop\KeepAlive\obj\Debug\KeepAlive.pdb

@@ -1,0 +1,6 @@
+C:\Users\Baran\Desktop\SimultaneousTerminate\bin\Debug\SimultaneousTerminate.exe
+C:\Users\Baran\Desktop\SimultaneousTerminate\bin\Debug\SimultaneousTerminate.pdb
+C:\Users\Baran\Desktop\SimultaneousTerminate\obj\Debug\SimultaneousTerminate.csprojResolveAssemblyReference.cache
+C:\Users\Baran\Desktop\SimultaneousTerminate\obj\Debug\SimultaneousTerminate.csproj.CoreCompileInputs.cache
+C:\Users\Baran\Desktop\SimultaneousTerminate\obj\Debug\SimultaneousTerminate.exe
+C:\Users\Baran\Desktop\SimultaneousTerminate\obj\Debug\SimultaneousTerminate.pdb

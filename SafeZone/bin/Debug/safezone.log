@@ -1,0 +1,60 @@
+2017-12-31 15:21:05,393 [1] INFO SafeZone.ZipManager - safezone is active
+2017-12-31 15:21:16,725 [1] INFO SafeZone.ZipManager - packages.config file deleted by user
+2017-12-31 15:21:16,734 [1] INFO SafeZone.ZipManager - log4net.config file deleted by user
+2017-12-31 15:21:24,944 [1] INFO SafeZone.ZipManager - C:\Users\Baran\Desktop\DemoT.db file added to safezone
+2017-12-31 15:34:07,129 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\Desktop\Yeni Metin Belgesi.txt file changed. type=Created
+2017-12-31 15:34:11,783 [5] WARN SafeZone.FileWatcher - C:\Users\Baran\Desktop\Yeni Metin Belgesi.txt file renamed. new name=C:\Users\Baran\Desktop\212.txt
+2017-12-31 15:59:10,678 [1] ERROR SafeZone.ZipManager - DemoT.db is changed by other resources. integrity is corrupted.
+2017-12-31 16:17:00,996 [1] INFO SafeZone.ZipManager - safezone is active
+2017-12-31 16:17:01,279 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Created
+2017-12-31 16:17:01,279 [5] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2017-12-31 16:17:01,307 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2017-12-31 16:17:01,311 [1] ERROR SafeZone.ZipManager - DemoT.db is changed by other resources. integrity is corrupted.
+2017-12-31 16:17:01,312 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2017-12-31 16:17:01,312 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Deleted
+2017-12-31 16:17:01,927 [5] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.log file changed. type=Changed
+2017-12-31 16:17:02,920 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.log file changed. type=Changed
+2017-12-31 16:17:11,846 [1] INFO SafeZone.ZipManager - safezone is active
+2017-12-31 16:17:12,116 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Created
+2017-12-31 16:17:12,116 [5] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2017-12-31 16:17:12,138 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2017-12-31 16:17:12,142 [1] ERROR SafeZone.ZipManager - DemoT.db is changed by other resources. integrity is corrupted.
+2017-12-31 16:17:12,143 [5] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2017-12-31 16:17:12,143 [5] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Deleted
+2017-12-31 16:21:16,393 [1] INFO SafeZone.ZipManager - safezone is active
+2017-12-31 16:21:16,651 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Created
+2017-12-31 16:21:16,653 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2017-12-31 16:21:16,677 [5] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2017-12-31 16:21:16,682 [1] ERROR SafeZone.ZipManager - DemoT.db is changed by other resources. integrity is corrupted.
+2017-12-31 16:21:16,683 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2017-12-31 16:21:16,683 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Deleted
+2017-12-31 16:21:26,228 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.log file changed. type=Changed
+2017-12-31 16:22:09,442 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\DotNetZip-wdrnwqr0.tmp file changed. type=Created
+2017-12-31 16:22:09,446 [8] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\DotNetZip-wdrnwqr0.tmp file changed. type=Deleted
+2017-12-31 16:22:52,102 [8] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\__rzi_19120.24634 file changed. type=Created
+2017-12-31 16:22:52,108 [9] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\__rzi_19120.24634 file changed. type=Changed
+2017-12-31 16:22:52,143 [8] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\__rzi_19120.24634 file changed. type=Deleted
+2017-12-31 16:23:03,108 [9] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.log file changed. type=Changed
+2017-12-31 16:23:28,291 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\File.db-journal file changed. type=Created
+2017-12-31 16:23:28,315 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\File.db-journal file changed. type=Changed
+2017-12-31 16:23:28,317 [12] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\File.db-journal file changed. type=Changed
+2017-12-31 16:23:28,317 [12] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\File.db file changed. type=Changed
+2017-12-31 16:23:28,317 [12] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\File.db-journal file changed. type=Deleted
+2017-12-31 16:23:28,319 [1] INFO SafeZone.ZipManager - C:\Users\Baran\Desktop\21.txt file added to safezone
+2017-12-31 16:23:28,319 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\DotNetZip-l3s1tc1j.tmp file changed. type=Created
+2017-12-31 16:23:28,340 [12] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\DotNetZip-l3s1tc1j.tmp file changed. type=Changed
+2017-12-31 16:23:28,342 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.safe file renamed. new name=C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.safe.g4h55ysc.sej
+2017-12-31 16:23:28,343 [12] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\DotNetZip-l3s1tc1j.tmp file renamed. new name=C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.safe
+2017-12-31 16:23:28,344 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.safe.g4h55ysc.sej file changed. type=Deleted
+2017-12-31 16:23:52,415 [1] INFO SafeZone.ZipManager - safezone is active
+2017-12-31 16:23:59,206 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\File.db-journal file changed. type=Created
+2017-12-31 16:23:59,208 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\File.db-journal file changed. type=Changed
+2017-12-31 16:23:59,208 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\File.db-journal file changed. type=Changed
+2017-12-31 16:23:59,209 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\File.db file changed. type=Changed
+2017-12-31 16:23:59,214 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\File.db-journal file changed. type=Deleted
+2017-12-31 16:23:59,215 [1] INFO SafeZone.ZipManager - C:\Users\Baran\Desktop\21.txt file changed by user
+2017-12-31 16:23:59,215 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\DotNetZip-fjzxzzuv.tmp file changed. type=Created
+2017-12-31 16:23:59,217 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\DotNetZip-fjzxzzuv.tmp file changed. type=Changed
+2017-12-31 16:23:59,218 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.safe file renamed. new name=C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.safe.rnuz4hie.g24
+2017-12-31 16:23:59,219 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\DotNetZip-fjzxzzuv.tmp file renamed. new name=C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.safe
+2017-12-31 16:23:59,219 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.safe.rnuz4hie.g24 file changed. type=Deleted
