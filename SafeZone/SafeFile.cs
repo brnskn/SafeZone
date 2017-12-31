@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Security.Cryptography;
+using System.Windows.Forms;
 
 namespace SafeZone
 {
@@ -56,10 +57,18 @@ namespace SafeZone
             {
                 using (var md5 = MD5.Create())
                 {
-                    using (var stream = File.OpenRead(FilePath))
+                    try
                     {
-                        var hash = md5.ComputeHash(stream);
-                        return BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant();
+                        using (var stream = File.OpenRead(FilePath))
+                        {
+                            var hash = md5.ComputeHash(stream);
+                            return BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant();
+                        }
+                    }
+                    catch(IOException e)
+                    {
+                        MessageBox.Show(e.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return null;
                     }
                 }
             }

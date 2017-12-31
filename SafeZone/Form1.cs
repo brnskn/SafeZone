@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using BrightIdeasSoftware;
 using System.Threading;
-using System.IO;
 
 namespace SafeZone
 {
@@ -29,7 +28,6 @@ namespace SafeZone
             InitializeComponent();
             updateFileList();
             zipManager.integrityConrol();
-            MessageBox.Show(Path.GetFullPath("safezone.safe"));
         }
         private void updateFileList()
         {
@@ -127,7 +125,6 @@ namespace SafeZone
                 }
             }
         }
-
         private static void KeepingAlive()
         {
             while (true)
@@ -186,5 +183,11 @@ namespace SafeZone
         private static Mutex _instanceMutex;
         private static bool _exiting;
         private static int _processId = 0;
+
+        private void logButton_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+        }
     }
 }

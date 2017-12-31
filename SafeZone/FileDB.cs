@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
+using System.IO;
 using System.Linq;
 
 namespace SafeZone
@@ -12,10 +13,23 @@ namespace SafeZone
 
         static FileDB()
         {
+            checkDb();
             Connection.Open();
+            checkTable();
             LoadList();
         }
-
+        private static void checkDb()
+        {
+            if (!File.Exists("File.db"))
+            {
+                SQLiteConnection.CreateFile("File.db");
+            }
+        }
+        private static void checkTable()
+        {
+            SQLiteCommand command = new SQLiteCommand("CREATE TABLE IF NOT EXISTS `files` ( `id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, `path` TEXT NOT NULL, `hash` TEXT NOT NULL )", Connection);
+            command.ExecuteNonQuery();
+        }
         public static void Init()
         {
 

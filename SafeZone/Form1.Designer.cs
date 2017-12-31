@@ -39,6 +39,7 @@
             this.crColumn = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.mdColumn = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.headerPanel = new System.Windows.Forms.Panel();
+            this.logButton = new System.Windows.Forms.Button();
             this.createIsoButton = new System.Windows.Forms.Button();
             this.minimizeButton = new System.Windows.Forms.Button();
             this.closeButton = new System.Windows.Forms.Button();
@@ -47,6 +48,7 @@
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.çıkışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.mainPanel.SuspendLayout();
@@ -132,7 +134,7 @@
             this.titleColumn.AspectName = "Title";
             this.titleColumn.IsEditable = false;
             this.titleColumn.Text = "Dosya Detayları";
-            this.titleColumn.Width = 500;
+            this.titleColumn.Width = 680;
             // 
             // crColumn
             // 
@@ -152,6 +154,7 @@
             // 
             this.headerPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.headerPanel.Controls.Add(this.logButton);
             this.headerPanel.Controls.Add(this.createIsoButton);
             this.headerPanel.Controls.Add(this.minimizeButton);
             this.headerPanel.Controls.Add(this.closeButton);
@@ -165,6 +168,22 @@
             this.headerPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseMove);
             this.headerPanel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseUp);
             // 
+            // logButton
+            // 
+            this.logButton.BackgroundImage = global::SafeZone.Properties.Resources.log_file_format;
+            this.logButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.logButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.logButton.FlatAppearance.BorderSize = 0;
+            this.logButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logButton.Location = new System.Drawing.Point(919, 13);
+            this.logButton.Name = "logButton";
+            this.logButton.Size = new System.Drawing.Size(30, 30);
+            this.logButton.TabIndex = 7;
+            this.logButton.Tag = "";
+            this.toolTip1.SetToolTip(this.logButton, "Günlüğü görüntüle");
+            this.logButton.UseVisualStyleBackColor = true;
+            this.logButton.Click += new System.EventHandler(this.logButton_Click);
+            // 
             // createIsoButton
             // 
             this.createIsoButton.BackgroundImage = global::SafeZone.Properties.Resources.hard_disk;
@@ -176,6 +195,8 @@
             this.createIsoButton.Name = "createIsoButton";
             this.createIsoButton.Size = new System.Drawing.Size(30, 30);
             this.createIsoButton.TabIndex = 6;
+            this.createIsoButton.Tag = "";
+            this.toolTip1.SetToolTip(this.createIsoButton, "Disk olarak bağla");
             this.createIsoButton.UseVisualStyleBackColor = true;
             this.createIsoButton.Click += new System.EventHandler(this.createIsoButton_Click);
             // 
@@ -190,6 +211,7 @@
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(30, 30);
             this.minimizeButton.TabIndex = 5;
+            this.toolTip1.SetToolTip(this.minimizeButton, "Simge durumuna küçült");
             this.minimizeButton.UseVisualStyleBackColor = true;
             this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
             // 
@@ -204,6 +226,7 @@
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(30, 30);
             this.closeButton.TabIndex = 4;
+            this.toolTip1.SetToolTip(this.closeButton, "Kapat");
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
@@ -247,7 +270,7 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.çıkışToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(173, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(173, 26);
             // 
             // çıkışToolStripMenuItem
             // 
@@ -302,6 +325,8 @@
         private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem çıkışToolStripMenuItem;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Button logButton;
     }
 }
 

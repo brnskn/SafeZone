@@ -51,7 +51,7 @@ namespace SafeZone
             {
                 zip = new ZipFile();
                 zip.Save(ARCHIVE_NAME + ZIP_EXT);
-                log.Info("safe file is not exists. created a new.");
+                log.Info(ARCHIVE_NAME + ZIP_EXT + " file is not exists. created a new.");
             }
             if (isSafe)
                 zip = ZipFile.Read(ARCHIVE_NAME + ZIP_EXT);
@@ -121,25 +121,55 @@ namespace SafeZone
         public void integrityConrol()
         {
             List<FileModel> list = FileDB.FileList;
-            using (ZipFile zip = ZipFile.Read(ARCHIVE_NAME + ZIP_EXT))
+            if (list.Count > 0)
             {
-                if (Directory.Exists("integrity"))
+                using (ZipFile zip = ZipFile.Read(ARCHIVE_NAME + ZIP_EXT))
                 {
-                    Directory.Delete("integrity", true);
-                }
-                foreach (ZipEntry e in zip)
-                {
-                    e.Extract("integrity");
-                    FileModel file = list.Where(x => x.title == e.FileName).First();
-                    SafeFile safeFile = new SafeFile("integrity/" + e.FileName);
-                    if(safeFile.Hash != file.hash)
+                    if (Directory.Exists("integrity"))
                     {
-                        log.Error(e.FileName + " is changed by other resources. integrity is corrupted.");
+                        Directory.Delete("integrity", true);
+                    }
+                    foreach (ZipEntry e in zip)
+                    {
+                        e.Extract("integrity");
+                        if(list.Any(x => x.title == e.FileName))
+                        {
+                            FileModel file = list.Where(x => x.title == e.FileName).First();
+                            SafeFile safeFile = new SafeFile("integrity/" + e.FileName);
+                            if (safeFile.Hash != file.hash)
+                            {
+                                log.Error(e.FileName + " changed by other resources. integrity is corrupted.");
+                            }
+                            else
+                            {
+                                log.Info(e.FileName + " not changed by other resources. file protected succesfully.");
+                            }
+                        }
+                        else
+                        {
+                            log.Warn(ARCHIVE_NAME + ZIP_EXT + " or File.db changed by other resources. integrity is maybe corrupted.");
+                        }
+                    }
+                    if (Directory.Exists("integrity"))
+                    {
+                        Directory.Delete("integrity", true);
                     }
                 }
-                Directory.Delete("integrity", true);
+                foreach(FileModel file in list)
+                {
+                    if(!zip.Any(x=>x.FileName == file.title))
+                    {
+                        log.Error(file.title + " was lost. integrity is corrupted.");
+                    }
+                }
             }
-
+            else
+            {
+                if(zip.Count > 0)
+                {
+                    log.Warn(ARCHIVE_NAME + ZIP_EXT + " or File.db is changed by other resources. integrity is maybe corrupted.");
+                }
+            }
         }
         private void run_cmd(string cmd, string args)
         {

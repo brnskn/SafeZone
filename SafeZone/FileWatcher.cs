@@ -46,14 +46,6 @@ namespace SafeZone
         void OnRenamed(object sender, RenamedEventArgs e)
         {
             log.Warn(e.OldFullPath + " file renamed. new name="+e.FullPath);
-            if (e.FullPath == Path.GetFullPath("safezone.safe"))
-            {
-                zipManager.integrityConrol();
-            }
-            if (e.OldFullPath == Path.GetFullPath("safezone.safe"))
-            {
-                zipManager.integrityConrol();
-            }
             if (FileDB.FileList.Any(x => x.path == e.OldFullPath))
             {
                 int id = FileDB.FileList.Where(x => x.path == e.OldFullPath).First().id;
