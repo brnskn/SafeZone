@@ -41,7 +41,7 @@ namespace SafeZone
 
         public static long Insert(UserModel user)
         {
-            SQLiteCommand command = new SQLiteCommand("insert into users (username, password) values('" + Hash(user.username) + "','"+ Hash(user.password) + "')", Connection);
+            SQLiteCommand command = new SQLiteCommand("insert into users (username, password) values('" + Hash(user.username) + "','" + Hash(user.password) + "')", Connection);
             command.ExecuteNonQuery();
             LoadList();
             return Connection.LastInsertRowId;
@@ -59,7 +59,8 @@ namespace SafeZone
 
         public static List<UserModel> UserList
         {
-            get{
+            get
+            {
                 return List;
             }
         }

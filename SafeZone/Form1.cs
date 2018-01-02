@@ -108,6 +108,7 @@ namespace SafeZone
 
         private void çıkışToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            form3.ShowDialog();
             if (zipManager.isSafe)
             {
                 DialogResult dialogResult = MessageBox.Show("Korumayı durdurmak istediğinize emin misiniz? Dosyalarınız artık korunmayacak!", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -122,7 +123,6 @@ namespace SafeZone
                 zipManager.isSafe = true;
                 çıkışToolStripMenuItem.Text = "Korumayı Duraklat";
             }
-
         }
 
         private void fileListView_KeyDown(object sender, KeyEventArgs e)

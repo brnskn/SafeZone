@@ -2120,3 +2120,53 @@
 2018-01-02 23:37:09,317 [12] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Deleted
 2018-01-02 23:43:43,992 [1] INFO SafeZone.ZipManager - safezone is active
 2018-01-02 23:43:48,556 [1] INFO SafeZone.ZipManager - safezone is active
+2018-01-03 00:49:40,172 [1] INFO SafeZone.ZipManager - safezone is active
+2018-01-03 00:50:29,737 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Created
+2018-01-03 00:50:29,737 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Created
+2018-01-03 00:50:29,737 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Created
+2018-01-03 00:50:29,737 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,769 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,769 [8] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,831 [7] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,831 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,831 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,831 [1] WARN SafeZone.ZipManager - safezone.safe or File.db changed by other resources. integrity is maybe corrupted.
+2018-01-03 00:50:29,847 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [8] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [1] ERROR SafeZone.ZipManager - safezone.log changed by other resources. integrity is corrupted.
+2018-01-03 00:50:29,847 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [8] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [8] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,847 [1] INFO SafeZone.ZipManager - SafeZone.pdb not changed by other resources. file protected succesfully.
+2018-01-03 00:50:29,862 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,862 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,862 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,862 [8] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,862 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,862 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [1] INFO SafeZone.ZipManager - arayuz1.png not changed by other resources. file protected succesfully.
+2018-01-03 00:50:29,878 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [8] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [8] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Changed
+2018-01-03 00:50:29,878 [6] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Deleted
+2018-01-03 00:50:29,878 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Deleted
+2018-01-03 00:50:29,878 [3] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\integrity file changed. type=Deleted
+2018-01-03 00:51:41,911 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.log file changed. type=Changed
+2018-01-03 00:51:41,911 [11] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.log file changed. type=Changed
+2018-01-03 00:51:41,911 [9] WARN SafeZone.FileWatcher - C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\safezone.log file changed. type=Changed
