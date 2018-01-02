@@ -25,3 +25,5 @@ C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\log4net.xml
 C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\log4net.config
 C:\Users\Baran\source\repos\SafeZone\SafeZone\obj\Debug\SafeZone.csprojResolveAssemblyReference.cache
 C:\Users\Baran\source\repos\SafeZone\SafeZone\obj\Debug\SafeZone.Form2.resources
+C:\Users\Baran\source\repos\SafeZone\SafeZone\bin\Debug\StartUpLibrary.dll
+C:\Users\Baran\source\repos\SafeZone\SafeZone\obj\Debug\SafeZone.Form3.resources

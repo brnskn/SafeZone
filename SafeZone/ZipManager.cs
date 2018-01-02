@@ -71,6 +71,8 @@ namespace SafeZone
 
         public void add(string[] files)
         {
+            if (UserDB.CurrentUser == null)
+                return;
             if(zip == null)
                 zip = ZipFile.Read(ARCHIVE_NAME + ZIP_EXT);
             foreach (string file in files)
@@ -101,6 +103,8 @@ namespace SafeZone
         }
         public void delete(ObjectListView sender)
         {
+            if (UserDB.CurrentUser == null)
+                return;
             if (zip == null)
                 zip = ZipFile.Read(ARCHIVE_NAME + ZIP_EXT);
             foreach (SafeFile safeItem in sender.SelectedObjects)

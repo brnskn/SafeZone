@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using BrightIdeasSoftware;
 using System.Threading;
+using StartUpLibrary;
 
 namespace SafeZone
 {
@@ -12,11 +13,13 @@ namespace SafeZone
         int TogMove;
         int MValX;
         int MValY;
-        bool cancel = true;
         List<SafeFile> list = new List<SafeFile>();
         ZipManager zipManager = new ZipManager();
+        Form3 form3 = new Form3();
         public SafeZone()
         {
+            StartUp startUp = new StartUp("SafeZone");
+            startUp.RegisterOrRemove(StartUp.Action.Register);
             if (!SingleInstance())
             {
                 Exit();
@@ -24,8 +27,12 @@ namespace SafeZone
             FileDB.Init();
             new FileWatcher(zipManager);
             var thread = new Thread(KeepingAlive);
-            //thread.Start();
+            thread.Start();
             InitializeComponent();
+            if (UserDB.CurrentUser == null)
+            {
+                form3.ShowDialog();
+            }
             updateFileList();
             zipManager.integrityConrol();
         }
@@ -57,6 +64,7 @@ namespace SafeZone
         private void closeButton_Click(object sender, EventArgs e)
         {
             Hide();
+            UserDB.CurrentUser = null;
             notifyIcon1.Visible = false;
             notifyIcon1.Visible = true;
         }
@@ -84,14 +92,18 @@ namespace SafeZone
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
+            if(UserDB.CurrentUser == null)
+            {
+                form3.ShowDialog();
+            }
             Show();
         }
 
         private void SafeZone_FormClosing(object sender, FormClosingEventArgs e)
         {
-            e.Cancel= cancel;
-            if(cancel)
-                Hide();
+            e.Cancel= true;
+            Hide();
+            UserDB.CurrentUser = null;
         }
 
         private void çıkışToolStripMenuItem_Click(object sender, EventArgs e)
@@ -172,7 +184,6 @@ namespace SafeZone
 
         private void Exit()
         {
-            cancel = false;
             _exiting = true;
             ReleaseSingleInstance();
             _keepAliveProcess.Kill();
@@ -188,6 +199,11 @@ namespace SafeZone
         {
             Form2 form2 = new Form2();
             form2.ShowDialog();
+        }
+
+        private void SafeZone_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            notifyIcon1.Visible = false;
         }
     }
 }

@@ -294,6 +294,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SafeZone";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SafeZone_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SafeZone_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
